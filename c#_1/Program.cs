@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System.Runtime.CompilerServices;
-using System.Runtime.ExceptionServices;
-using System.Runtime.InteropServices;
+Console.WriteLine("Hello, World!");
+
 
 Console.WriteLine("Welcome, Saniro charaters ");
 Console.WriteLine("Welcome, Saniro Dressup");
@@ -85,6 +84,4 @@ for (int Londons = 0; Londons < 15; Londons++);
 {
     Console.WriteLine("Clothes Loaded ");
 }
-
-
 

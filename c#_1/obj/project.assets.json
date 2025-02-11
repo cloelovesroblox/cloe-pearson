@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/student/Desktop/cloe pearson/c#_1/c#_1.csproj",
-      "projectName": "c#_1",
-      "projectPath": "/Users/student/Desktop/cloe pearson/c#_1/c#_1.csproj",
+      "projectUniqueName": "/Users/student/Desktop/cloe pearson/c#_1/c#_2.csproj",
+      "projectName": "c#_2",
+      "projectPath": "/Users/student/Desktop/cloe pearson/c#_1/c#_2.csproj",
       "packagesPath": "/Users/student/.nuget/packages/",
       "outputPath": "/Users/student/Desktop/cloe pearson/c#_1/obj/",
       "projectStyle": "PackageReference",
