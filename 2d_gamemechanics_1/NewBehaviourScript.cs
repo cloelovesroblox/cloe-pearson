@@ -27,5 +27,5 @@ public class NewBehaviourScript : MonoBehaviour
         Instantiate(objectToSpawn, spawnpoint.position, spawnpoint.rotation);
     }
     
-    
+
 }
