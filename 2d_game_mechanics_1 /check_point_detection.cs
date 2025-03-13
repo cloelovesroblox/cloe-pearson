@@ -5,15 +5,14 @@ using UnityEngine;
 public class check_point_detection : MonoBehaviour
 {
     // Start is called before the first frame update
+   public Transform starting_point; // Set this in Inspector
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Check if the collided object has the "Checkpoint" tag
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")) // Check if player touches checkpoint
         {
-            Debug.Log("dectection");
-            // Destroy the checkpoint
-            Destroy(other.gameObject);
+            Debug.Log("Checkpoint reached! Moving back to start.");
+            other.transform.position = starting_point.position; // Move player back
         }
     }
 }
